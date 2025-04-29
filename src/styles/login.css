@@ -1,0 +1,95 @@
+.login-layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.login{
+    width: 500px;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-header{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.login-header>h1{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 300;
+    }
+.login-header>a{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 300;
+    text-decoration: none;
+    color: blue;
+    margin-bottom: 5px;
+    font-size: 15px;
+
+}
+.login-form{
+    width: 400px;
+    height:380px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;    border-radius: 6px;
+}
+
+.pass-item1{
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    }
+.pass-item1>a{
+    font-size: 15px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 300;   
+    text-decoration: none;
+    color: blue;
+}
+.login-form>div{
+    height:110px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    font-size: 18px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 300;
+    margin-bottom: 10px;
+  
+}
+
+.login-form>div>input{
+    height: 35px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    background-color: ghostwhite;
+    font-size: 16px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 300;
+}
+.login-form>div>button{
+    height: 40px;
+    width: 300px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 300;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color:cornflowerblue;
+    border: 0.5px solid whitesmoke;
+    color: white;
+}
+.login-form>div>button:hover{
+    cursor: pointer;
+    transform: scaleZ(1.3);
+}

@@ -1,0 +1,82 @@
+.reset-layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.reset{
+    width: 500px;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reset-header{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.reset-header>h2{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 300;
+    }
+.reset-header>a{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 300;
+    text-decoration: none;
+    color: blue;
+    margin-bottom: 5px;
+    font-size: 15px;
+
+}
+.reset-body>form{
+    width: 400px;
+    height:380px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;    border-radius: 6px;
+}
+.reset-body>form>div{
+    height:110px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    font-size: 18px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 300;
+    margin-bottom: 10px;
+  
+}
+
+.reset-body>form>div>input{
+    height: 35px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    background-color: ghostwhite;
+    font-size: 16px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 300;
+}
+.reset-body>form>div>button{
+    height: 40px;
+    width: 300px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 300;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color:cornflowerblue;
+    border: 0.5px solid whitesmoke;
+    color: white;
+}
+.reset-body>form>div>button:hover{
+    cursor: pointer;
+    transform: scaleZ(1.3);
+}

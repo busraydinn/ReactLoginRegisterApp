@@ -1,0 +1,19 @@
+.auth-header{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+
+}
+.auth-header>a>img{
+    height: 90px;
+    width: 90px;
+}
+.auth-body{
+    height: 100vh;
+}
+.auth-footer{
+    height: 500px;
+}
