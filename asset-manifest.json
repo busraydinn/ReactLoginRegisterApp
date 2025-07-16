@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ReactLoginRegisterApp/static/css/main.efb5eff2.css",
-    "main.js": "/ReactLoginRegisterApp/static/js/main.9d484b5a.js",
+    "main.js": "/ReactLoginRegisterApp/static/js/main.5028c5de.js",
     "static/media/footer.png": "/ReactLoginRegisterApp/static/media/footer.62bc20a78df246fa7fda.png",
     "static/media/weblogo.png": "/ReactLoginRegisterApp/static/media/weblogo.2066baa2c1d6036143d5.png",
     "index.html": "/ReactLoginRegisterApp/index.html",
     "main.efb5eff2.css.map": "/ReactLoginRegisterApp/static/css/main.efb5eff2.css.map",
-    "main.9d484b5a.js.map": "/ReactLoginRegisterApp/static/js/main.9d484b5a.js.map"
+    "main.5028c5de.js.map": "/ReactLoginRegisterApp/static/js/main.5028c5de.js.map"
   },
   "entrypoints": [
     "static/css/main.efb5eff2.css",
-    "static/js/main.9d484b5a.js"
+    "static/js/main.5028c5de.js"
   ]
 }
